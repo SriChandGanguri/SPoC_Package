@@ -23,13 +23,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ViewController",
-        "printedName": "ViewController",
+        "name": "MyViewController",
+        "printedName": "MyViewController",
         "children": [
           {
             "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
+            "name": "fetch",
+            "printedName": "fetch()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -38,16 +38,33 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SPoC@objc(cs)ViewController(im)viewDidLoad",
-            "mangledName": "$s4SPoC14ViewControllerC11viewDidLoadyyF",
+            "usr": "s:4SPoC16MyViewControllerC5fetchyyF",
+            "mangledName": "$s4SPoC16MyViewControllerC5fetchyyF",
             "moduleName": "SPoC",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "Custom",
-              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getString",
+            "printedName": "getString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4SPoC16MyViewControllerC9getStringSSyF",
+            "mangledName": "$s4SPoC16MyViewControllerC9getStringSSyF",
+            "moduleName": "SPoC",
+            "declAttributes": [
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -59,9 +76,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ViewController",
-                "printedName": "SPoC.ViewController",
-                "usr": "c:@M@SPoC@objc(cs)ViewController"
+                "name": "MyViewController",
+                "printedName": "SPoC.MyViewController",
+                "usr": "c:@M@SPoC@objc(cs)MyViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -93,8 +110,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@SPoC@objc(cs)ViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s4SPoC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "usr": "c:@M@SPoC@objc(cs)MyViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s4SPoC16MyViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
             "moduleName": "SPoC",
             "overriding": true,
             "implicit": true,
@@ -115,13 +132,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SPoC.ViewController?",
+                "printedName": "SPoC.MyViewController?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ViewController",
-                    "printedName": "SPoC.ViewController",
-                    "usr": "c:@M@SPoC@objc(cs)ViewController"
+                    "name": "MyViewController",
+                    "printedName": "SPoC.MyViewController",
+                    "usr": "c:@M@SPoC@objc(cs)MyViewController"
                   }
                 ],
                 "usr": "s:Sq"
@@ -134,8 +151,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@SPoC@objc(cs)ViewController(im)initWithCoder:",
-            "mangledName": "$s4SPoC14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "usr": "c:@M@SPoC@objc(cs)MyViewController(im)initWithCoder:",
+            "mangledName": "$s4SPoC16MyViewControllerC5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "SPoC",
             "overriding": true,
             "implicit": true,
@@ -150,8 +167,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@SPoC@objc(cs)ViewController",
-        "mangledName": "$s4SPoC14ViewControllerC",
+        "usr": "c:@M@SPoC@objc(cs)MyViewController",
+        "mangledName": "$s4SPoC16MyViewControllerC",
         "moduleName": "SPoC",
         "declAttributes": [
           "Custom",
@@ -308,7 +325,7 @@
     {
       "filePath": "\/Users\/srichandganguri\/Desktop\/SPoC\/SPoC\/Modules\/Test\/ViewController\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 101,
+      "offset": 103,
       "length": 44,
       "value": "\"https:\/\/api.npoint.io\/6a38394fd44d9b1fe186\""
     },

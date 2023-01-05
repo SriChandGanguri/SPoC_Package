@@ -256,9 +256,8 @@ using UInt = size_t;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC4SPoC14ViewController")
-@interface ViewController : UIViewController <NSURLSessionDelegate>
-- (void)viewDidLoad;
+SWIFT_CLASS("_TtC4SPoC16MyViewController")
+@interface MyViewController : UIViewController <NSURLSessionDelegate>
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -529,9 +528,8 @@ using UInt = size_t;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC4SPoC14ViewController")
-@interface ViewController : UIViewController <NSURLSessionDelegate>
-- (void)viewDidLoad;
+SWIFT_CLASS("_TtC4SPoC16MyViewController")
+@interface MyViewController : UIViewController <NSURLSessionDelegate>
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
