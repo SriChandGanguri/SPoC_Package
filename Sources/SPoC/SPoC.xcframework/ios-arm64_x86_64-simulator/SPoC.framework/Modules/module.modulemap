@@ -1,0 +1,11 @@
+framework module SPoC {
+  umbrella header "SPoC.h"
+
+  export *
+  module * { export * }
+}
+
+module SPoC.Swift {
+  header "SPoC-Swift.h"
+  requires objc
+}
